@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 7.1.0"
+  spec.add_dependency "friendly_id", "~> 5.5.0"
   spec.add_dependency "acts_as_tenant"
   spec.add_dependency "omniauth-figma"  # Assuming there's a Figma API gem
   spec.add_dependency "pundit"
@@ -32,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "factory_bot_rails"
   spec.add_development_dependency "cucumber-rails"
   spec.add_development_dependency "database_cleaner"
+  spec.add_development_dependency "shoulda-matchers"
 end
