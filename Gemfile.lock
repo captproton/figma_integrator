@@ -3,6 +3,7 @@ PATH
   specs:
     figma_integrator (0.1.0)
       acts_as_tenant
+      friendly_id (~> 5.5.0)
       omniauth-figma
       pundit
       rails (>= 7.1.0)
@@ -160,6 +161,8 @@ GEM
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     ffi (1.17.0-x86_64-linux-musl)
+    friendly_id (5.5.1)
+      activerecord (>= 4.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     hashie (5.0.0)
