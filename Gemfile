@@ -23,6 +23,6 @@ gem "omniauth-figma", "~> 1.0"
 group :test do
   gem "rspec-rails"
   gem "factory_bot_rails"
-  gem "database_cleaner"
+  gem "database_cleaner", ">= 2.1.0"
   gem "shoulda-matchers"
 end
