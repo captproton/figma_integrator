@@ -10,9 +10,9 @@ gem "sqlite3"
 gem "sprockets-rails"
 
 group :test do
-  gem "cucumber-rails", require: false
+  gem "cucumber-rails", ">= 3.0.1", require: false
 # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
-gem "rubocop-rails-omakase", require: false
+gem "rubocop-rails-omakase", ">= 1.1.0", require: false
   # other test gems...
 end
 
@@ -21,8 +21,8 @@ end
 
 gem "omniauth-figma", "~> 1.0"
 group :test do
-  gem "rspec-rails"
-  gem "factory_bot_rails"
+  gem "rspec-rails", ">= 7.0.2"
+  gem "factory_bot_rails", ">= 6.4.4"
   gem "database_cleaner"
   gem "shoulda-matchers"
 end
